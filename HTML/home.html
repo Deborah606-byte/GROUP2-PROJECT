@@ -1,14 +1,129 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Landing-page</title>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>LANDING-PAGE</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    
+    <link href="../CSS/home.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap" rel="stylesheet"/>
 </head>
-<body>
-    <nav>
-        Welcome to our project
-    </nav>
-</body>
+  <body>
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-md">
+              <a class="navbar-brand" href="#"><img src="../IMAGES/logo.jpeg" alt="logo" class="navbar-logo"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Our Stories
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Deborah Ama Paintsil</a></li>
+                      <li><a class="dropdown-item" href="#">Jossy</a></li>
+                      <li><a class="dropdown-item" href="#">Justus</a></li>
+                      <li><a class="dropdown-item" href="#">Manga</a></li>
+                      <li><a class="dropdown-item" href="#">Kevin</a></li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+
+          <div class="jumbotron intro-jumbotron text-end">
+            <div class="container-md">
+                <h3>BIG IDEAS</h3>
+                <h3>CREATIVE PEOPLE</h3>
+                <h3>TELLING FASCINATING STORIES</h3> 
+            </div>         
+        </div>
+    </header>
+
+    <div class="jumbotron journey-begin-jumbotron">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-md-12">
+                    <h3>The Beginning</h3>
+                </div>
+            </div>
+
+            <div class="row image-row align-items-center justify-items-center">
+                <div class="col-md-6" style="position: relative;">
+                    <img src="../IMAGES/ALU1.jpg" alt="ALU" class="img-fluid picture-ALU">
+                    <img src="../IMAGES/ALU2.jpg" class="ALU images-ALU">
+                </div>
+                <div class="col-md-6">
+                 <div class="ps-5">
+                    <h3>Small Beginnings They Say</h3>
+                    <p>It started when we saw that we can be a change maker in the world we live in.
+                    True or not!!
+                    We realized that we can become a pillar that will define our world some day!!</p>
+                    <p class="mt-4">
+                        <a href="#" class="btn btn-outline-warning stories-button">The Stories</a>
+                    </p>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="jumbotron pictures-jumbotron">
+        <div class="container-md">
+            <div class="row">
+                <div class="col-md-6 member1">
+                    <img src="../IMAGES/K1.jpg" alt="Kevin" class="img-fluid members-pictures">
+                    <p class="member mt-2">Hi, I am Kevin (Who you are)</p>
+                    <p class="mt-4">
+                        <a href="#" class="btn btn-info story-button">View Story</a>
+                    </p>
+                </div>
+                <div class="col-md-6 member2">
+                    <img src="../IMAGES/J2.png" alt="Jossy" class="img-fluid members-pictures">
+                    <p class="member mt-2">Hi, I am Jossy (Who you are)</p>
+                    <p class="mt-4">
+                        <a href="#" class="btn btn-primary story-button">View Story</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-12 member3">
+                <img src="../IMAGES/DE.jpg" alt="Debbie" class="img-fluid members-pictures">
+                    <p class="member mt-2">Hi, I am Deborah (a creative and dynamic person)</p>
+                    <p class="mt-4">
+                        <a href="#" class="btn btn-dark story-button">View Story</a>
+                    </p>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-md-6 member4">
+                <img src="../IMAGES/JU.jpg" alt="Justus" class="img-fluid members-pictures">
+                <p class="member mt-2">Hi, I am Justus (Who you are)</p>
+                <p class="mt-4">
+                    <a href="#" class="btn btn-danger story-button">View Story</a>
+                </p>
+            </div>
+            <div class="col-md-6 member5">
+                <img src="../IMAGES/MA.jpg" alt="Manga" class="img-fluid members-pictures">
+                <p class="member mt-2">Hi, I am Manga (Who you are)</p>
+                <p class="mt-4">
+                    <a href="#" class="btn btn-success story-button">View Story</a>
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  </body>
 </html>

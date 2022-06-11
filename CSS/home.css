@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins";
+}
+.navbar{
+    background-color: white;
+} 
+.navbar-logo{
+    width: 100px;
+    height: 80px;
+}
+header{
+    background-image: url(../IMAGES/coverimage5.jpg);
+    height: 100vh;
+    background-size: cover;
+}
+div.intro-jumbotron{
+    padding: 1em 2em;
+    color: red;
+    font-weight: 800;
+}
+div.journey-begin-jumbotron{
+    min-height: 600px;
+    padding: 6em 2em;
+    background-color: rgb(24,17,47);
+}
+div.journey-begin-jumbotron{
+    color: white;
+}
+div.journey-begin-jumbotron div.image-row{
+    margin-top: 5em;
+}
+img.picture-ALU{
+    border: 5px solid white;
+    border-radius: 10px;
+}
+a.stories-button{
+    padding: 0.5em 2em;
+    font-size: 20px;
+}
+a.stories-button:hover{
+    opacity: 0.8;
+}
+img.ALU{
+    position: absolute;
+}
+img.images-ALU{
+    top: -100px;
+    right: -10px;
+    width: 300px;
+    border-radius: 10px;
+}
+div.pictures-jumbotron{
+    padding: 6em 2em;
+    /* background-image: url(../IMAGES/background.jpg);
+    background-size: cover; */
+    background-color: orange;
+}
+img.members-pictures{
+    width: 300px;
+    border-radius: 50px;
+}
+.member1{
+    text-align: center;
+}
+.member2{
+    text-align: center;
+}
+.member3{
+    text-align: center;
+}
+.member4{
+    text-align: center;
+}
+.member5{
+    text-align: center;
+}
+a.story-button{
+    padding: 0.5em 2em;
+    font-size: 20px;
+    border-radius: 20px;
+}
+a.story-button:hover{
+    opacity: 0.8;
+    color: orange;
+}
+.member{
+    color: white;
+    font-style: italic;
+    font-weight: 400;
+}
