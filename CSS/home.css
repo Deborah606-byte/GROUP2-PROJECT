@@ -34,7 +34,7 @@ div.journey-begin-jumbotron div.image-row{
     margin-top: 5em;
 }
 img.picture-ALU{
-    border: 5px solid white;
+    border: 10px solid white;
     border-radius: 10px;
 }
 a.stories-button{
@@ -63,6 +63,7 @@ img.members-pictures{
     width: 350px;
     height: 270px;
     border-radius: 100px;
+    border: 10px solid black;
 }
 .member1{
     text-align: center;
