@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    font-family: "Poppins";
+    font-family: 'Playfair Display', serif;
 }
 .navbar{
     background-color: white;
@@ -20,7 +20,7 @@ header{
 div.intro-jumbotron{
     padding: 1em 2em;
     color: red;
-    font-weight: 800;
+    font-weight: bold;
 }
 div.journey-begin-jumbotron{
     min-height: 600px;
@@ -60,8 +60,9 @@ div.pictures-jumbotron{
     background-color: orange;
 }
 img.members-pictures{
-    width: 300px;
-    border-radius: 50px;
+    width: 350px;
+    height: 270px;
+    border-radius: 100px;
 }
 .member1{
     text-align: center;
@@ -91,4 +92,20 @@ a.story-button:hover{
     color: white;
     font-style: italic;
     font-weight: 400;
+}
+.footer-jumbotron{
+    text-align: center;
+    padding: 6em 2em;
+    background-color: black;
+}
+.footer-jumbotron h3{
+    color: red;
+    font-weight: 600;
+    font-size: 30px;
+}
+.footer-jumbotron p{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
 }
