@@ -7,10 +7,17 @@ body{
 }
 .navbar{
     background-color: white;
+    padding: 0 7em;
 } 
 .navbar-logo{
     width: 100px;
     height: 80px;
+}
+.navbar ul.dropdown-menu{
+    line-height: 35px;
+}
+.navbar li.dropdown-item:hover{
+    color: orange;
 }
 header{
     background-image: url(../IMAGES/coverimage5.jpg);
