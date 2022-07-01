@@ -16,26 +16,4 @@ body{
 .navbar ul.dropdown-menu{
     line-height: 35px;
 }
-header{
-    background-color: black;
-    height: 100vh;
-}
-.text{
-    color: wheat;
-    padding: 8em 0;
-}
-.Debbie-pic{
-    border: 10px solid red;
-    border-radius: 50px;
-    padding: 1em 1em;
-    margin-top: 10px;
-    height: 450px;
-}
-div.body-jumbotron{
-    background-color: rgb(24,17,47);
-    color: white;
-}
-.background{
-    background-color: white;
-    color: black;
-}
+
