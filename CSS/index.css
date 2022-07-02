@@ -299,6 +299,9 @@ img.images-ALU{
 .desc:hover {
     opacity: 1;
 }
+.section2 a{
+    text-decoration: none;
+}
 .footer-jumbotron{
     text-align: center;
     padding: 5em 2em;
