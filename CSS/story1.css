@@ -6,7 +6,6 @@
 }
 body{
     font-family: 'Poppins', serif;
-    background-color: black;
 }
 .navbar{
     background-color: white;
@@ -21,20 +20,24 @@ body{
     justify-content: center;
     border-radius: 50%;
 }
+div.body-jumbotron{
+    background-image: url(../IMAGES/pawel-czerwinski-z7prq6BtPE4-unsplash.jpg);
+    background-size: cover;
+}
 .storycards{
     background-color: orange;
 }
 .storycards p{
     color: black;
 }
-.storycards a{
+.cards a{
     text-decoration: none;
 }
-.storycards a{
+.cards a{
     display: inline-block;
     height: 40px;
     width: 40px;
-    background-color: white;
+    background-color: black;
     margin:0 10px 10px 0;
     text-align: center;
     line-height: 40px;
