@@ -18,13 +18,13 @@
     justify-content: center;
     border-radius: 50%;
 }
-main {
+/*main {
     width: 100%;
     position: relative;
     scroll-snap-type: y mandatory;
     overflow-y: scroll;
     height: 100vh;
-}
+}*/
 
 main::-webkit-scrollbar {
     display: none;
