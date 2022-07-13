@@ -5,29 +5,6 @@
     box-sizing: border-box;
     font-family: 'Poppins', serif;
 }
-
-main {
-    width: 100%;
-    position: relative;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
-}
-
-main::-webkit-scrollbar {
-    display: none;
-  }
-
-section {
-    scroll-snap-align: center;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-.section3 {
-    background-color: black;
-}
 .navbar{
     background-color: white;
     padding: 0 15em;
@@ -41,8 +18,25 @@ section {
     justify-content: center;
     border-radius: 50%;
 }
+main {
+    width: 100%;
+    position: relative;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
 
+main::-webkit-scrollbar {
+    display: none;
+}
 
+section {
+    scroll-snap-align: center;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
 /*Footer*/
 .footer-jumbotron{
