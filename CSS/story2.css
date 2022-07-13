@@ -30,13 +30,6 @@ main::-webkit-scrollbar {
     display: none;
 }
 
-section {
-    scroll-snap-align: center;
-    overflow: hidden;
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
 /*Footer*/
 .footer-jumbotron{
