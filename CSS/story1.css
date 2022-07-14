@@ -44,6 +44,9 @@ body{
     border-bottom-color: rgba(225,225,225,0.1);
     border-right-color: rgba(225,225,225,0.1);
 }
+.card h3{
+    color: wheat;
+}
 .card p{
     font-weight: 500;
 }
@@ -128,4 +131,14 @@ div.comment-jumbotron h3{
     color: red;
     font-weight: 800;
     font-size: 2.5rem;
+}
+.Note{
+    color: red;
+    font-style: italic;
+}
+.Notes{
+    color: wheat;
+}
+span{
+    color: pink;
 }
