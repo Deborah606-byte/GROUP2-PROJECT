@@ -141,4 +141,6 @@ div.comment-jumbotron h3{
 }
 span{
     color: pink;
+    font-style: italic;
+    font-size: 20px;
 }
