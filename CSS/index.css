@@ -7,19 +7,16 @@
 }
 
 main {
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMAGES/pexels-pixabay-158736.jpg);
     width: 100%;
     position: relative;
-    scroll-snap-type: y mandatory;
-    overflow-y: scroll;
-    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
-main::-webkit-scrollbar {
-    display: none;
-  }
 
 section {
-    scroll-snap-align: center;
     overflow: hidden;
     background-size: cover;
     background-position: center;
@@ -27,21 +24,28 @@ section {
 }
 
 .section1 {
-    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMAGES/pexels-pixabay-158736.jpg);
-    height: 100vh;
+    height: 120vh;
 }
 
 .section2 {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.7)), url(../IMAGES/pexels-vlad-alexandru-popa-1480962.jpg);
     position: relative;
-    height: 100vh;
+    height: 120vh;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem;
 }
 
 .section3 {
     background-color: black;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem;
+}
+.section4 {
+    height: 120vh;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem;
+
 }
 .navbar{
-    background-color: white;
     padding: 0 15em;
 } 
 .logo {
@@ -52,6 +56,7 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    color: white;
 }
 
 .pic-text h2 {
@@ -59,7 +64,7 @@ section {
     line-height: 50px;
 }
 .pic-home-page {
-    width: 20rem;
+    width: 30rem;
     height: 30rem;
     border-radius: 50%;
     background-color: #FFB800;
@@ -82,44 +87,34 @@ section {
     text-align: right;
     display: flex;
     align-items: flex-end;
-    font-size: 2rem;
     font-stretch: extra-expanded;
-    padding: 0em 0em 5em 4em;
     animation: slideUp 1s ease-in 0s;
+}
+.text-home-page h2{
+    font-size: 3rem;
+    line-height: 6rem;
+}
+
+.text-home-page a{
+    text-decoration: none;
 }
 
 span {
     color: #E23219;
 }
 
-.down-arrow {
-    background-image: url(../IMAGES/down-arrow\ \(1\).png);
-    height: 3rem;
-    width: 3rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: contain;
-    position: absolute;
-    bottom: 1rem;
-    left: 50%;
-    animation: fadeIn 1.2s ease-in-out 100ms infinite alternate both;
-}
-
-div.journey-begin-jumbotron{
-    min-height: 600px;
-    padding: 6em 2em;
-    background-color: rgb(24,17,47);
-    
-}
 div.journey-begin-jumbotron{
     color: white;
 }
 div.journey-begin-jumbotron div.image-row{
-    margin-top: 5em;
+    margin-top: 0;
 }
 img.picture-ALU{
     border: 10px solid white;
-    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    width: 50%;
+    right: 15rem;
 }
 a.stories-button{
     padding: 0.5em 2em;
@@ -130,18 +125,19 @@ a.stories-button:hover{
 }
 img.ALU{
     position: absolute;
+    border: 10px solid white;
+
 }
 img.images-ALU{
-    top: -100px;
-    right: -10px;
-    width: 300px;
-    border-radius: 10px;
+    top: 0;
+    right: 2rem;
+    width: 50%;
 }
 
 .heading {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-size: 3rem;
     padding-top: 1rem;
@@ -157,17 +153,9 @@ img.images-ALU{
 
 .underline {
     width: 20%;
-    height: 1rem;
+    height: 0.5rem;
     border-radius: 1rem;
-}
-
-.underline1 {
     background-color: white;
-    width: 10%;
-}
-
-.underline2 {
-    background-color: #E23219;
 }
 
 .polygon {
@@ -197,8 +185,8 @@ img.images-ALU{
 
 .polygon .slide .hexagon {
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    height: 25rem;
-    width: 30%;
+    height: 20rem;
+    width: 20%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -293,7 +281,7 @@ img.images-ALU{
     width: 100%;
     height: 100%;
     opacity: 0;
-    color: red;
+    color: white;
 }
 
 .desc:hover {
@@ -304,18 +292,17 @@ img.images-ALU{
 }
 .footer-jumbotron{
     text-align: center;
-    padding: 5em 2em;
+    
 }
 .footer-jumbotron h3{
-    color: red;
-    font-weight: 600;
-    font-size: 30px;
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
 }
 .footer-jumbotron p{
     color: white;
-    font-weight: 600;
-    font-size: 20px;
-    font-style: italic;
+    font-weight: 400;
+    font-size: 15px;
 }
 @media screen and (max-width: 600px){
     nav {
@@ -465,34 +452,3 @@ img.images-ALU{
 }
 
 
-/*
-  hr {
-    position: absolute;
-    width: 1rem;
-    transform: rotate(45deg);
-    border: none;
-    border-radius: 2rem;
-    margin-bottom: 10em;
-    z-index: 1;
-}
-
-.white {
-    left: 28rem;
-    top: 8rem;
-    height: 40rem;
-    background-color: white;
-}
-
-.yellow {
-    left: 32rem;
-    top: 5rem;
-    height: 30rem;
-    background-color: #FFB800;
-}
-
-.orange {
-    left: 29rem;
-    top: 15rem;
-    height: 30rem;
-    background-color: #E23219;
-} */
