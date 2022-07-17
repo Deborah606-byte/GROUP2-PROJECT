@@ -16,6 +16,7 @@ main {
 }
 
 
+
 section {
     overflow: hidden;
     background-size: cover;
@@ -24,12 +25,12 @@ section {
 }
 
 .section1 {
-    height: 120vh;
+    height: 140vh;
 }
 
 .section2 {
     position: relative;
-    height: 120vh;
+    height: 140vh;
     border-top: rgb(101, 97, 97) solid 1px;
     padding-top: 5rem;
 }
@@ -40,7 +41,7 @@ section {
     padding-top: 5rem;
 }
 .section4 {
-    height: 120vh;
+    /* height: 120vh; */
     border-top: rgb(101, 97, 97) solid 1px;
     padding-top: 5rem;
 
@@ -56,9 +57,8 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: white;
+    color: black;
 }
-
 .pic-text h2 {
     color: white;
     line-height: 50px;
@@ -103,18 +103,19 @@ span {
     color: #E23219;
 }
 
+
+div.journey-begin-jumbotron{
+    min-height: 700px;
+}
 div.journey-begin-jumbotron{
     color: white;
 }
 div.journey-begin-jumbotron div.image-row{
-    margin-top: 0;
+    margin-top: 5em;
 }
 img.picture-ALU{
     border: 10px solid white;
-    position: absolute;
-    top: 100px;
-    width: 50%;
-    right: 15rem;
+    border-radius: 10px;
 }
 a.stories-button{
     padding: 0.5em 2em;
@@ -125,22 +126,21 @@ a.stories-button:hover{
 }
 img.ALU{
     position: absolute;
-    border: 10px solid white;
-
 }
 img.images-ALU{
-    top: 0;
-    right: 2rem;
-    width: 50%;
+    top: -100px;
+    right: -10px;
+    width: 300px;
+    border-radius: 10px;
 }
 
 .heading {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     font-size: 3rem;
-    padding-top: 1rem;
+    margin-bottom: 30px;
 }
 
 .heading1 {
@@ -160,7 +160,7 @@ img.images-ALU{
 
 .polygon {
     position: absolute;
-    top: 2rem;
+    top: 10rem;
     width: 100%;
     min-height: 100vh;
     perspective: 1000rem;
@@ -185,8 +185,8 @@ img.images-ALU{
 
 .polygon .slide .hexagon {
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    height: 20rem;
-    width: 20%;
+    height: 25rem;
+    width: 25%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -281,7 +281,7 @@ img.images-ALU{
     width: 100%;
     height: 100%;
     opacity: 0;
-    color: white;
+    color: red;
 }
 
 .desc:hover {
@@ -300,7 +300,7 @@ img.images-ALU{
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: white;
+    color: red;
     font-weight: 400;
     font-size: 15px;
 }
