@@ -58,6 +58,7 @@ section {
     justify-content: center;
     border-radius: 50%;
     color: black;
+    font-size: 15px;
 }
 .pic-text h2 {
     color: white;
@@ -111,7 +112,7 @@ div.journey-begin-jumbotron{
     color: white;
 }
 div.journey-begin-jumbotron div.image-row{
-    margin-top: 5em;
+    margin-top: 10em;
 }
 img.picture-ALU{
     border: 10px solid white;
@@ -129,9 +130,15 @@ img.ALU{
 }
 img.images-ALU{
     top: -100px;
-    right: -10px;
+    right: -0.5px;
     width: 300px;
     border-radius: 10px;
+}
+.began h1{
+    color: orange;
+}
+.image-row h3{
+    color: red;
 }
 
 .heading {
