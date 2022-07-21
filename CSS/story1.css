@@ -24,6 +24,7 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    font-size: 20px;
 }
 
 
@@ -142,4 +143,29 @@ div.comment-jumbotron h3{
     color: pink;
     font-style: italic;
     font-size: 20px;
+}
+
+.section3{
+    background-color: black;
+    padding-top: 5rem;
+}
+.footer-jumbotron{
+    text-align: center;
+    
+}
+.footer-jumbotron h3{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.footer-jumbotron p{
+    color: red;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 600px) {
+    .card{
+        margin-left: 30px;
+    }
 }
