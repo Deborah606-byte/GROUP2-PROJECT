@@ -5,8 +5,14 @@
     box-sizing: border-box;
     font-family: 'Poppins', serif;
 }
+body{
+    background-image: url(../IMAGES/daniel-olah-ZbEURDlbE6o-unsplash.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    color: white;
+}
 .navbar{
-    background-color: white;
     padding: 0 15em;
 } 
 .logo {
@@ -17,63 +23,50 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    font-size: 20px;
 }
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(58.51deg, rgba(255, 255, 255, 0.05) 1.36%, rgba(255, 255, 255, 0.122) 96.3%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.65);
-    border-radius: 1rem;
-    width: 60%;
-    margin: 3rem auto;
-    padding: 3rem 0rem;
+.navbar-nav a {
+	font-size: 15px;
+	font-weight: 700;
+	text-shadow: white;
+    color: white;
 }
-
-input {
-    border-radius: 1rem;
-    outline: none;
-    border: none;
-    width: 70%;
-    height: 3rem;
-    padding: 1rem;
-    margin-bottom: 3rem;
-    font-size: large;
-
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
 }
-div.comment-jumbotron{
-    padding: 5em 0;
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: orange;
 }
-.btn{
-    width: 30%;
-    border-radius: 20px;
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+    color: orange;
+    background-image: linear-gradient(to right, #E23219, #FFB800);
 }
-div.comment-jumbotron h3{
+.navbar .dropdown-menu .dropdown-item{
+    color: black
+}
+.navbar .dropdown-menu .dropdown-item:hover{
     color: red;
-    font-weight: 800;
-    font-size: 2.5rem;
 }
 
 .card{
+    margin-top: 70px;
     width: 100%;
     max-width: 400px;
     text-align: center;
    
-    border-radius: 1rem;
+    border-radius: 20px;
     border: 1px solid transparent;
 
     backdrop-filter: blur(1rem);
     box-shadow: 1.3rem 1.3rem 1.3rem rgba(0,0,0,0.5);
 
-    border-top-color: rgba(225,225,225,0.5);
+    /* border-top-color: rgba(225, 225, 225, 0.5);
     border-left-color: rgba(225,225,225,0.5);
     border-bottom-color: rgba(225,225,225,0.1);
-    border-right-color: rgba(225,225,225,0.1);
+    border-right-color: rgba(225,225,225,0.1); */
 }
 .card h3{
     color: wheat;
@@ -81,14 +74,16 @@ div.comment-jumbotron h3{
 .card p{
     font-weight: 500;
 }
-.cb1{
+.card.no1{
     background-color: rgba(225,225,225,0.1);
+    color: white;
+    border-radius: 20px;
 }
 .cb2{
     background-color: rgba(225,225,225,0.3);
 }
 .card-number{
-    color: rgba(225,225,225,0.08);
+    color: rgba(225,225,225,0.10);
     font-size: 5rem;
     z-index: -1;
     position: relative;
@@ -101,9 +96,43 @@ div.comment-jumbotron h3{
     font-size: 2rem;
     text-decoration: underline;
 }
-.ALU-logo{
-    width: 320px;
-    height: 100px;
+.card a{
+    text-decoration: none;
 }
-
-
+.card a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: orangered;
+    transition: all 0.2s ease;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse {
+		background: red;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
+} 
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
+	.card{
+        margin-left: 30px;
+    }
+	.navbar-collapse {
+		background: red;
+	}
+} 
