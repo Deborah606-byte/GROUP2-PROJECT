@@ -119,6 +119,13 @@ body{
     width: 320px;
     height: 100px;
 }
+.Note{
+    color: red;
+    font-style: italic;
+}
+.Notes{
+    color: wheat;
+}
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-nav {
