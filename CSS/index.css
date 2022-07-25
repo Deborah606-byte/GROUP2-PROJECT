@@ -50,6 +50,7 @@ section {
 }
 .navbar{
     padding: 0 15em;
+    background-image: linear-gradient(to right, white, black);
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
