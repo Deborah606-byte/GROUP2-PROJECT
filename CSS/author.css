@@ -6,7 +6,7 @@
     font-family: 'Poppins', serif;
 }
 .navbar{
-    /* background-color: white; */
+    background-color: black; 
     padding: 0 5em; 
 } 
 .logo {
@@ -54,7 +54,7 @@
 	background-image: url(../IMAGES/IMG-DEE.jpg);
 }
 .bg-2 {
-	background-image: url(../IMAGES/JOSSY.jpeg);
+	background-image: url(../IMAGES/IMG-JOSSY2.jpg);
 }
 .bg-3 {
 	background-image: url(../IMAGES/Justus.jpg);
@@ -117,6 +117,9 @@ p span{
 }
 .carousel-indicators button {
 	width: 100px !important;
+}
+.slde.btn:hover{
+	opacity: 1;
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-nav {
