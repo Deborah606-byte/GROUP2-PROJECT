@@ -14,7 +14,7 @@ body{
 }
 .navbar{
     padding: 0 15em;
-    background-color: #000;
+    background-image: linear-gradient(to right, white, black);
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
