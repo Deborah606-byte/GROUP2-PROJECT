@@ -6,7 +6,7 @@
     font-family: 'Poppins', serif;
 }
 .navbar{
-    background-color: black; 
+    /* background-color: black;  */
     padding: 0 5em; 
 } 
 .logo {
@@ -54,7 +54,7 @@
 	background-image: url(../IMAGES/IMG-DEE.jpg);
 }
 .bg-2 {
-	background-image: url(../IMAGES/IMG-JOSSY2.jpg);
+	background-image: url(../IMAGES/Ekhat.jpg);
 }
 .bg-3 {
 	background-image: url(../IMAGES/Justus.jpg);
