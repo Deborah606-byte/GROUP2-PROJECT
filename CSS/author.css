@@ -51,7 +51,7 @@
 	min-height: 400px;
 }
 .bg-1 {
-	background-image: url(../IMAGES/DEE.jpg);
+	background-image: url(../IMAGES/IMG-DEE.jpg);
 }
 .bg-2 {
 	background-image: url(../IMAGES/JOSSY.jpeg);
@@ -63,41 +63,42 @@
 	background-image: url(../IMAGES/Manga.jpeg);
 }
 .bg-5 {
-	background-image: url(../IMAGES/Kein.jpg);
+	background-image: url(../IMAGES/Untitled\ design\ \(2\).png);
 }
 .bg-1, .bg-2, .bg-3, .bg-4, .bg-5{
 	-webkit-background-size: cover;
 	background-size: cover;
     background-repeat: no-repeat;
-    background-position: unset;
+    background-position: center;
 }
 .carousel-caption {
-	bottom: 200px;
+	bottom: 180px;
 	z-index: 2;
 }
-.carousel-caption h5 {
-	font-size: 50px;
+p span{
+    color: orange;
+	font-size: 30px;
 	text-transform: capitalize;
 	letter-spacing: 2px;
 	margin-top: 25px;
 	font-family: 'Moon Dance', cursive;
 }
-.slide span{
-    color: orange;
-}
 .carousel-caption p {
-	width: 60%;
+	width: 100%;
 	margin: auto;
 	font-size: 18px;
 	line-height: 1.9;
+	font-family: 'Moon Dance', cursive;
+	color: wheat;
+	font-style: italic
 }
 .carousel-caption a {
 	text-transform: uppercase;
 	text-decoration: none;
 	padding: 5px 20px;
 	display: inline-block;
-	color: #fff;
-	margin-top: 15px;
+	color: white;
+	margin-top: 20px;
 	border-radius: 5px;
     font-weight: bolder;
 }
@@ -108,7 +109,7 @@
 	height: 100%;
 	top: 0;
 	left: 0;
-	background: rgba(0, 0, 0, 0.6);
+	background: rgba(0, 0, 0, 0.5);
 	z-index: 1;
 }
 .carousel-indicators {
