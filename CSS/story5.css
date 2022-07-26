@@ -6,14 +6,14 @@
     font-family: 'Poppins', serif;
 }
 body{
-    background-image: url(../IMAGES/hamza-nouasria-IDDiqMxniuQ-unsplash.jpg);
+    background-image: url(../IMAGES/alex-perez-ioJBsYQ-pPM-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     color: white;
 }
 .navbar{
-    padding: 0 5em;
+    padding: 0 5em; 
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -67,8 +67,8 @@ body{
 
     border-top-color: rgba(225, 225, 225, 0.2);
     border-left-color: rgba(225,225,225,0.2);
-    border-bottom-color: rgba(225,225,225,0.4);
-    border-right-color: rgba(225,225,225,0.4); 
+    border-bottom-color: rgba(225,225,225,0.1);
+    border-right-color: rgba(225,225,225,0.1); 
 }
 .card h3{
     color: wheat;
@@ -76,18 +76,18 @@ body{
 .card p{
     font-weight: 500;
 }
-.card.ma1{
-    background-color: rgba(225,225,225,0.4);
+.card.no1{
+    background-color: rgba(225,225,225,0.1);
     color: white;
     border-radius: 20px;
 }
-.card.ma2{
+.card.no2{
     background-color: rgba(225,225,225,0.2);
     color: white;
     border-radius: 20px;
 }
 .card-number{
-    color: rgba(225,225,225,0.06);
+    color: rgba(225,225,225,0.05);
     font-size: 5rem;
     z-index: -1;
     position: relative;
@@ -126,6 +126,7 @@ body{
 .Notes{
     color: wheat;
 }
+
 .section3 {
     background-color: black;
     padding-top: 5rem;

@@ -14,7 +14,6 @@ body{
 }
 .navbar{
     padding: 0 15em;
-    background-image: linear-gradient(to right, white, black);
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -77,9 +76,9 @@ body{
     color: red;
 }
 
-.cards{
+/* .cards{
     margin-top: 100px;
-}
+} */
 .card{
     width: 100%;
     max-width: 400px;
