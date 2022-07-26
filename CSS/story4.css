@@ -127,3 +127,21 @@ body{
 .Notes{
     color: wheat;
 }
+.section3 {
+    background-color: black;
+    padding-top: 5rem;
+}
+.footer-jumbotron{
+    text-align: center;
+    
+}
+.footer-jumbotron h3{
+    color: white;
+    font-weight: 400;
+    font-size: 15px;
+}
+.footer-jumbotron p{
+    color: red;
+    font-weight: 400;
+    font-size: 15px;
+}
