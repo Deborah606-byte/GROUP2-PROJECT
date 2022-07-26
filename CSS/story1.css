@@ -147,6 +147,10 @@ body{
     color: wheat;
     text-align: center;
 }
+.Note{
+    color: red;
+    font-style: italic;
+}
 
 
 .contact-form {
