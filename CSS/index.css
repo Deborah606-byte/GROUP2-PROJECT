@@ -6,20 +6,15 @@
     font-family: 'Poppins', serif;
 }
 
-body{
+main {
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMAGES/pexels-pixabay-158736.jpg);
+    width: 100%;
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
-main {
-    width: 100%;
-    position: relative;
-    
-}
 
 
 section {
@@ -30,30 +25,32 @@ section {
 }
 
 .section1 {
-    height: 110vh;
+    height: 90vh;
 }
 
 .section2 {
     position: relative;
-    height: 120vh;
-    border-top: rgb(101, 97, 97) solid 1px;
-    padding-top: 5rem;
+    height: 140vh;
+    /* border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem; */
+    background-image: url(../IMAGES/pexels-vlad-alexandru-popa-1480962.jpg);
 }
 
 .section3 {
     background-color: black;
-    border-top: rgb(101, 97, 97) solid 1px;
+    /* border-top: rgb(101, 97, 97) solid 1px; */
     padding-top: 5rem;
 }
 .section4 {
-    height: 120vh;
-    border-top: rgb(101, 97, 97) solid 1px;
-    padding-top: 5rem;
+    /* height: 120vh; */
+    /* border-top: rgb(101, 97, 97) solid 1px; */
+    /* padding-top: 5rem; */
+    background-color: rgb(24,17,47);
 
 }
 .navbar{
-    color: white;
-    padding: 2rem 5rem 3rem 5rem; 
+    padding: 0 15em;
+    /* background-color: rgba(225,225,225,0.1); */
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -63,7 +60,33 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    color: black;
+    font-size: 20px;
+}
+.navbar-nav a {
+	font-size: 15px;
+	font-weight: 700;
+	text-shadow: white;
     color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: orange;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+    color: orange;
+    background-image: linear-gradient(to right, #E23219, #FFB800);
+}
+.navbar .dropdown-menu .dropdown-item{
+    color: black
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    color: red;
 }
 
 .pic-text h2 {
@@ -71,7 +94,7 @@ section {
     line-height: 50px;
 }
 .pic-home-page {
-    width: 30rem;
+    width: 20rem;
     height: 30rem;
     border-radius: 50%;
     background-color: #FFB800;
@@ -87,7 +110,8 @@ section {
 .pic-text {
     display: flex;
     width: 80%;
-    margin: auto;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 
 .text-home-page {
@@ -95,7 +119,7 @@ section {
     display: flex;
     align-items: flex-end;
     font-stretch: extra-expanded;
-    animation: slideUp 1s ease-in 0s;
+    padding: 4em 0;
 }
 .text-home-page h2{
     font-size: 3rem;
@@ -109,22 +133,21 @@ section {
 span {
     color: #E23219;
 }
-span:hover {
-    color:#FFB800;
-}
 
+
+div.journey-begin-jumbotron{
+    min-height: 700px;
+    background-color: rgb(24,17,47);
+}
 div.journey-begin-jumbotron{
     color: white;
 }
 div.journey-begin-jumbotron div.image-row{
-    margin-top: 0;
+    margin-top: 10em;
 }
 img.picture-ALU{
     border: 10px solid white;
-    position: absolute;
-    top: 100px;
-    width: 50%;
-    right: 15rem;
+    border-radius: 10px;
 }
 a.stories-button{
     padding: 0.5em 2em;
@@ -135,22 +158,27 @@ a.stories-button:hover{
 }
 img.ALU{
     position: absolute;
-    border: 10px solid white;
-
 }
 img.images-ALU{
-    top: 0;
-    right: 2rem;
-    width: 50%;
+    top: -100px;
+    right: -0.5px;
+    width: 300px;
+    border-radius: 10px;
+}
+.began h1{
+    color: orange;
+}
+.image-row h3{
+    color: red;
 }
 
 .heading {
     display: flex;
     flex-direction: column;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     font-size: 3rem;
-    padding-top: 1rem;
+    margin-top: 50px;
 }
 
 .heading1 {
@@ -170,7 +198,7 @@ img.images-ALU{
 
 .polygon {
     position: absolute;
-    top: 2rem;
+    top: 8rem;
     width: 100%;
     min-height: 100vh;
     perspective: 1000rem;
@@ -178,7 +206,6 @@ img.images-ALU{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding-top: 10rem;
 }
 
 .polygon .slide {
@@ -196,8 +223,8 @@ img.images-ALU{
 
 .polygon .slide .hexagon {
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    height: 20rem;
-    width: 20%;
+    height: 30rem;
+    width: 30%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -292,7 +319,7 @@ img.images-ALU{
     width: 100%;
     height: 100%;
     opacity: 0;
-    color: white;
+    color: red;
 }
 
 .desc:hover {
@@ -311,11 +338,26 @@ img.images-ALU{
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: white;
+    color: red;
     font-weight: 400;
     font-size: 15px;
 }
 @media screen and (max-width: 600px){
+    .section1{
+        height: 150vh;
+    }
+    .pic-text h2{
+        margin-right: 50px;
+    }
+    .picture-ALU{
+        width: 400px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    .images-ALU{
+        width: 200px;
+        right:-0.2px;
+    }
     nav {
         width: 100%;
         justify-content: space-between;
@@ -414,6 +456,15 @@ img.images-ALU{
     .image-row{
         margin-top: 100px;
     }
+    .navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse {
+		background: red;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
 }
 
 
