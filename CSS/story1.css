@@ -14,7 +14,7 @@ body{
 }
 .navbar{
     color: white;
-    padding: 1rem 5rem 3rem 5rem; 
+    padding: 1rem 5rem 1rem 5rem; 
 }
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -55,7 +55,7 @@ body{
     display: grid;
     gap: 1.5rem;
     grid-template-columns: repeat(3, 1fr);
-    padding: 1rem;
+    padding: 0.1rem;
 }
 
 .grid-col-2{
@@ -101,6 +101,10 @@ h6{
 .ALU-logo{
     width: 320px;
     height: 100px;
+}
+.notes{
+    color: wheat;
+    text-align: center;
 }
 
 
