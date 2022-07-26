@@ -6,20 +6,15 @@
     font-family: 'Poppins', serif;
 }
 
-body{
+main {
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMAGES/pexels-pixabay-158736.jpg);
+    width: 100%;
+    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-
 }
 
-main {
-    width: 100%;
-    position: relative;
-    
-}
 
 
 
@@ -55,8 +50,8 @@ section {
 
 }
 .navbar{
-    color: white;
-    padding: 2rem 5rem 3rem 5rem; 
+    padding: 0 15em;
+    /* background-color: rgba(225,225,225,0.1); */
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -139,9 +134,6 @@ section {
 span {
     color: #E23219;
 }
-span:hover {
-    color:#FFB800;
-}
 
 
 div.journey-begin-jumbotron{
@@ -215,7 +207,6 @@ img.images-ALU{
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    padding-top: 10rem;
 }
 
 .polygon .slide {
