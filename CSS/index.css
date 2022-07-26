@@ -152,7 +152,7 @@ div.journey-begin-jumbotron{
     color: white;
 }
 div.journey-begin-jumbotron div.image-row{
-    margin-top: 5em;
+    margin-top: 10em;
 }
 img.picture-ALU{
     border: 10px solid white;
@@ -330,6 +330,7 @@ img.images-ALU{
     height: 100%;
     opacity: 0;
     color: red;
+    font-size: 20px;
 }
 
 .desc:hover {
@@ -356,24 +357,8 @@ img.images-ALU{
     .section2{
         height: 90vh;
     }
-    div.journey-begin-jumbotron div.image-row{
-        margin-top: -100px;
-    }
-    div.journey-begin-jumbotron div.image-row .images{
-        margin-top: 100px;
-    }
-    img.images-ALU{
-        top: -100px;
-        left: -0.2px;
-        width: 300px;
-        border-radius: 10px;
-    }
-    .notes{
-        margin-top: -20px;
-    }
     a.stories-button{
        margin-left: 100px;
-       margin-top: -50px;
     }
     .section1{
         height: 150vh;
