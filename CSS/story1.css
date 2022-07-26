@@ -13,8 +13,9 @@ body{
     color: white;
 }
 .navbar{
-    padding: 0 5em; 
-} 
+    color: white;
+    padding: 1rem 5rem 1rem 5rem; 
+}
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
     height: 3em;
@@ -30,6 +31,31 @@ body{
 	font-weight: 700;
 	text-shadow: white;
     color: white;
+}
+.navbar-light .navbar-nav .nav-link {
+	color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: orange;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+    color: orange;
+    background-image: linear-gradient(to right, #E23219, #FFB800);
+}
+.navbar .dropdown-menu .dropdown-item{
+    color: black
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    color: red;
+}
+.testimonial-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0.1rem;
 }
 .navbar-light .navbar-nav .nav-link {
 	color: #fff;
@@ -116,6 +142,10 @@ body{
 .ALU-logo{
     width: 320px;
     height: 100px;
+}
+.notes{
+    color: wheat;
+    text-align: center;
 }
 
 

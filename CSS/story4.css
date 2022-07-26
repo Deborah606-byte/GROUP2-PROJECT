@@ -6,14 +6,14 @@
     font-family: 'Poppins', serif;
 }
 body{
-    background-image: url(../IMAGES/daniel-olah-ZbEURDlbE6o-unsplash.jpg);
+    background-image: url(../IMAGES/hamza-nouasria-IDDiqMxniuQ-unsplash.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     color: white;
 }
 .navbar{
-    padding: 0 15em;
+    padding: 0 5em;
     background-image: linear-gradient(to right, white, black);
 } 
 .logo {
@@ -25,31 +25,6 @@ body{
     justify-content: center;
     border-radius: 50%;
     font-size: 20px;
-}
-.navbar-nav a {
-	font-size: 15px;
-	font-weight: 700;
-	text-shadow: white;
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link {
-	color: #fff;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: orange;
-}
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-    color: orange;
-    background-image: linear-gradient(to right, #E23219, #FFB800);
-}
-.navbar .dropdown-menu .dropdown-item{
-    color: black
-}
-.navbar .dropdown-menu .dropdown-item:hover{
-    color: red;
 }
 .navbar-nav a {
 	font-size: 15px;
@@ -93,8 +68,8 @@ body{
 
     border-top-color: rgba(225, 225, 225, 0.2);
     border-left-color: rgba(225,225,225,0.2);
-    border-bottom-color: rgba(225,225,225,0.1);
-    border-right-color: rgba(225,225,225,0.1); 
+    border-bottom-color: rgba(225,225,225,0.4);
+    border-right-color: rgba(225,225,225,0.4); 
 }
 .card h3{
     color: wheat;
@@ -102,18 +77,18 @@ body{
 .card p{
     font-weight: 500;
 }
-.card.no1{
-    background-color: rgba(225,225,225,0.1);
+.card.ma1{
+    background-color: rgba(225,225,225,0.4);
     color: white;
     border-radius: 20px;
 }
-.card.no2{
+.card.ma2{
     background-color: rgba(225,225,225,0.2);
     color: white;
     border-radius: 20px;
 }
 .card-number{
-    color: rgba(225,225,225,0.05);
+    color: rgba(225,225,225,0.06);
     font-size: 5rem;
     z-index: -1;
     position: relative;
@@ -152,29 +127,3 @@ body{
 .Notes{
     color: wheat;
 }
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse {
-		background: red;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-} 
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-	.card{
-        margin-left: 30px;
-    }
-	.navbar-collapse {
-		background: red;
-	}
-} 
