@@ -42,7 +42,7 @@
 }
 .navbar .dropdown-menu .dropdown-item:hover{
     color: red;
-}
+} 
 /*  carousel      */
 
 .carousel-item {
@@ -137,7 +137,7 @@ p span{
     color: red;
     font-weight: 400;
     font-size: 15px;
-}
+} 
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-nav {

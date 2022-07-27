@@ -71,13 +71,22 @@ body{
     color: red;
 }
 
-
-/* .cards{
-    margin-top: 100px;
-} */
+.pictures{
+    background-color: rgba(225,225,225,0.2);
+    border-radius: 50px;
+}
+.pic{
+    width: 300px;
+    height: 200px;
+    border-radius: 20px;
+}
+.image{
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+}
 .card{
     width: 100%;
-    max-width: 400px;
     text-align: center;
    
     border-radius: 1rem;
@@ -91,17 +100,18 @@ body{
     border-bottom-color: rgba(225,225,225,0.1);
     border-right-color: rgba(225,225,225,0.1);
 }
-.card h3{
-    color: wheat;
-}
 .card p{
     font-weight: 500;
 }
+.card p::first-letter{
+    font-size: 50px;
+    color: red;
+}
+.card h3{
+    color: wheat;
+}
 .cb1{
     background-color: rgba(225,225,225,0.1);
-}
-.cb2{
-    background-color: rgba(225,225,225,0.3);
 }
 .card-number{
     color: rgba(225,225,225,0.08);
@@ -117,27 +127,22 @@ body{
     font-size: 2rem;
     text-decoration: underline;
 }
-/* .cards a{
-    text-decoration: none;
+.cb2{
+    background-color: rgba(225,225,225,0.2);
+    color: white;
+    border-radius: 20px;
 }
-.cards a{
-    display: inline-block;
-    height: 40px;
-    width: 40px;
-    background-color: black;
-    margin:0 10px 10px 0;
-    text-align: center;
-    line-height: 40px;
-    border-radius: 50%;
-    color: red;
-    transition: all 0.2s ease;
+.card .jordan{
+    width: 400px;
 }
-*/
+.card .images{
+    border-radius: 20px;
+}
 .ALU-logo{
-    width: 320px;
+    width: 500px;
     height: 100px;
 }
-.notes{
+.Notes{
     color: wheat;
     text-align: center;
 }
@@ -145,80 +150,3 @@ body{
     color: red;
     font-style: italic;
 }
-
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    background: linear-gradient(58.51deg, rgba(255, 255, 255, 0.05) 1.36%, rgba(255, 255, 255, 0.122) 96.3%);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-    box-shadow: 0px 8px 8px rgba(0, 0, 0, 0.65);
-    border-radius: 1rem;
-    width: 60%;
-    margin: 3rem auto;
-    padding: 3rem 0rem;
-}
-
-input {
-    border-radius: 1rem;
-    outline: none;
-    border: none;
-    width: 70%;
-    height: 3rem;
-    padding: 1rem;
-    margin-bottom: 3rem;
-    font-size: large;
-
-}
-div.comment-jumbotron{
-    padding: 5em 0;
-}
-
-.section3{
-    background-color: black;
-    padding-top: 5rem;
-}
-.footer-jumbotron{
-    text-align: center;
-    
-}
-.footer-jumbotron h3{
-    color: white;
-    font-weight: 400;
-    font-size: 15px;
-}
-.footer-jumbotron p{
-    color: red;
-    font-weight: 400;
-    font-size: 15px;
-}
-
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse {
-		background: red;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-} 
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-	.card{
-        margin-left: 30px;
-    }
-	.navbar-collapse {
-		background: red;
-	}
-}  
