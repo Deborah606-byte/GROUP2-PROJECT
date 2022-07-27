@@ -207,6 +207,27 @@ div.comment-jumbotron{
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
 	}
+    #first {
+		order: 1;
+	}
+	#second {
+		order: 4;
+	}
+	#third {
+		order: 6;
+	}
+	#fourth {
+		order: 2;
+	}
+    #fifth{
+        order: 7;
+    }
+    #sixth{
+        order: 3;
+    }
+    #seventh{
+        order: 5;
+    }
 } 
 @media only screen and (max-width: 767px) {
 	.navbar-nav {
@@ -221,4 +242,25 @@ div.comment-jumbotron{
 	.navbar-collapse {
 		background: red;
 	}
+    #first {
+		order: 1;
+	}
+	#second {
+		order: 4;
+	}
+	#third {
+		order: 6;
+	}
+	#fourth {
+		order: 2;
+	}
+    #fifth{
+        order: 7;
+    }
+    #sixth{
+        order: 3;
+    }
+    #seventh{
+        order: 5;
+    }
 }  
