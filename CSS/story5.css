@@ -145,3 +145,33 @@ body{
     font-weight: 400;
     font-size: 15px;
 }
+.card .images{
+    width: 250px;
+    height: 250px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse {
+		background: red;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
+} 
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
+	.card{
+        margin-left: 30px;
+    }
+	.navbar-collapse {
+		background: red;
+	}
+} 
