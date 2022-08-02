@@ -165,6 +165,12 @@ div.comment-jumbotron h3{
     background-color: black;
     padding-top: 5rem;
 }
+#disqus_thread{
+    border-radius: 1rem;
+    backdrop-filter: blur(1rem);
+    background-color: rgb(196, 196, 196);
+    padding: 2rem;
+}
 .footer-jumbotron{
     text-align: center;
     
