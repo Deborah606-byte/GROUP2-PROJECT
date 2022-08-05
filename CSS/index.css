@@ -39,13 +39,11 @@ section {
 
 .section3 {
     background-color: black;
-    /* border-top: rgb(101, 97, 97) solid 1px; */
-    padding-top: 5rem;
 }
 .section4 {
     /* height: 120vh; */
     /* border-top: rgb(101, 97, 97) solid 1px; */
-    /* padding-top: 5rem; */
+    padding-top: 2rem; 
     background-color: rgb(24,17,47);
 
 }
@@ -65,7 +63,7 @@ section {
 }
 .navbar-nav a {
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 400;
 	text-shadow: white;
     color: white;
 }
@@ -86,7 +84,7 @@ section {
     color: black
 }
 .navbar .dropdown-menu .dropdown-item:hover{
-    color: red;
+    color: black;
 }
 
 .pic-text h2 {
@@ -102,7 +100,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 5em;
+    margin-left: 8em;
     z-index: 2;
     animation: slideIn 1s ease-in 0s;
 }
@@ -118,11 +116,11 @@ section {
     display: flex;
     align-items: flex-end;
     font-stretch: extra-expanded;
-    padding: 4em 0;
+    padding: 8em 2em;
 }
 .text-home-page h2{
     font-size: 3rem;
-    line-height: 6rem;
+    line-height: 5rem;
 }
 
 .text-home-page a{
@@ -135,7 +133,7 @@ span {
 
 
 div.journey-begin-jumbotron{
-    min-height: 700px;
+    min-height: 670px;
     background-color: rgb(24,17,47);
 }
 div.journey-begin-jumbotron{
@@ -168,7 +166,7 @@ img.images-ALU{
     color: orange;
 }
 .image-row h3{
-    color: red;
+    color: orange;
 }
 
 .heading {
@@ -318,7 +316,7 @@ img.images-ALU{
     width: 100%;
     height: 100%;
     opacity: 0;
-    color: red;
+    color: orange;
     font-size: 20px;
 }
 
@@ -328,21 +326,20 @@ img.images-ALU{
 .section2 a{
     text-decoration: none;
 }
-.footer-jumbotron{
-    text-align: center;
-    
-}
 .footer-jumbotron h3{
     color: white;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: red;
+    color: white;
     font-weight: 400;
     font-size: 15px;
 }
 @media screen and (max-width: 600px){
+    .footer-jumbotron{
+        text-align: center;
+    }
     .section2{
         height: 90vh;
     }
@@ -350,7 +347,7 @@ img.images-ALU{
        margin-left: 100px;
     }
     .section1{
-        height: 150vh;
+        height: 140vh;
     }
     .pic-text h2{
         margin-right: 50px;
