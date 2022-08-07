@@ -88,7 +88,7 @@ body{
 .card-title{
     color: orange;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -148,23 +148,21 @@ div.comment-jumbotron h3{
     font-style: italic;
     font-size: 20px;
 }
-
+.note{
+    text-align: center;
+    color: black;
+    font-weight: 500;
+}
 .section3 {
     background-color: black;
-    border-top: rgb(101, 97, 97) solid 1px;
-    padding-top: 1rem;
-}
-.footer-jumbotron{
-    text-align: center;
-    
 }
 .footer-jumbotron h3{
-    color: white;
-    font-weight: 400;
+    color: orange;
+    font-weight: 700;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }

@@ -13,7 +13,7 @@ body{
     color: white;
 }
 .navbar{
-    padding: 0 15em;
+    padding: 0 5em;
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -24,6 +24,7 @@ body{
     justify-content: center;
     border-radius: 50%;
     font-size: 20px;
+    color: white;
 }
 .navbar-nav a {
 	font-size: 15px;
@@ -113,7 +114,7 @@ body{
 .card-title{
     color: orange;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -124,12 +125,10 @@ h6{
     width: 320px;
     height: 100px;
 }
-.Note{
-    color: red;
-    font-style: italic;
-}
-.Notes{
-    color: wheat;
+.note{
+    text-align: center;
+    color: black;
+    font-weight: 800;
 }
 div.comment-jumbotron{
     padding: 5em 0;
@@ -138,6 +137,11 @@ div.comment-jumbotron{
     width: 30%;
     border-radius: 20px;
 }
+.ideas{
+    width: 300px;
+    height: 300px;
+    margin-left: 150px;
+}
 div.comment-jumbotron h3{
     color: white;
     font-weight: 600;
@@ -145,46 +149,18 @@ div.comment-jumbotron h3{
 }
 .section3 {
     background-color: black;
-    border-top: rgb(101, 97, 97) solid 1px;
-    padding-top: 1rem;
-}
-.footer-jumbotron{
-    text-align: center;
-    
 }
 .footer-jumbotron h3{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse {
-		background: #FFB800;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-} 
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse .nav-item .nav-link {
-        background-color: #FFB800;
-	}
-    .navbar{
-        padding: 1rem 1rem 3rem 1rem; 
-    }
-	
-} 
+
 @media screen and (max-width: 680px) {
     .testimonial-grid{
         display: grid;
@@ -248,3 +224,4 @@ div.comment-jumbotron h3{
         width: 20rem;
     }
 }
+

@@ -90,7 +90,7 @@ body{
 .card-title{
     color: orange;
     font-weight: 500;
-    font-size: 1.2rem;
+    font-size: 2rem;
     text-align: center;
     padding-bottom: 2rem;
 }
@@ -158,46 +158,17 @@ div.comment-jumbotron h3{
 
 .section3 {
     background-color: black;
-    border-top: rgb(101, 97, 97) solid 1px;
-    padding-top: 1rem;
-}
-.footer-jumbotron{
-    text-align: center;
-    
 }
 .footer-jumbotron h3{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse {
-		background: #FFB800;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-} 
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse .nav-item .nav-link {
-        background-color: #FFB800;
-	}
-    .navbar{
-        padding: 1rem 1rem 3rem 1rem; 
-    }
-	
-} 
 @media screen and (max-width: 680px) {
     .testimonial-grid{
         display: grid;
@@ -206,9 +177,6 @@ div.comment-jumbotron h3{
         padding: 1rem;
     }
     .grid-col-2{
-        grid-column: span 1;
-    }
-    .grid-col-3{
         grid-column: span 1;
     }
     .grid-row-2{
