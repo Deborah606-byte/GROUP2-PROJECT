@@ -27,7 +27,7 @@ body{
 }
 .navbar-nav a {
 	font-size: 15px;
-	font-weight: 700;
+	font-weight: 400;
 	text-shadow: white;
     color: white;
 }
@@ -48,7 +48,7 @@ body{
     color: black
 }
 .navbar .dropdown-menu .dropdown-item:hover{
-    color: red;
+    color: black;
 }
 
 

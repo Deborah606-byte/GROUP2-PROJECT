@@ -58,7 +58,7 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: black;
+    color: white;
     font-size: 20px;
 }
 .navbar-nav a {
@@ -128,7 +128,7 @@ section {
 }
 
 span {
-    color: #E23219;
+    color: #b47670;
 }
 
 
@@ -327,12 +327,12 @@ img.images-ALU{
     text-decoration: none;
 }
 .footer-jumbotron h3{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
@@ -465,7 +465,7 @@ img.images-ALU{
 		text-align: center;
 	}
 	.navbar-collapse {
-		background: red;
+		background: orange;
 	}
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
