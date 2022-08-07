@@ -128,7 +128,7 @@ section {
 }
 
 span {
-    color: #b47670;
+    color: #E23219;
 }
 
 
@@ -336,6 +336,7 @@ img.images-ALU{
     font-weight: 400;
     font-size: 15px;
 }
+
 @media screen and (max-width: 600px){
     .footer-jumbotron{
         text-align: center;
