@@ -15,19 +15,19 @@
 
 <body>
  <header>
-    <nav class="navbar navbar-expand-lg navbar-light">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-md">
         <a class="navbar-brand" href="../HTML/index.html">
-          <h2 class="logo">IP-G2</h2>
+          <h2 class="logo text-white">IP-G2</h2>
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" style="background-color:white;">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link active text-white" aria-current="page" href="../HTML/index.html" stle="color:white;">Home</a>
+              <a class="nav-link active text-white" aria-current="page" href="../HTML/index.html">Home</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -51,7 +51,7 @@
               </ul>
             </li>
             <li class="nav-item">
-              <a href="../HTML/authors.html" class="nav-link text-white">The Authors</a>
+              <a href="../HTML/author.html" class="nav-link text-white">Authors</a>
             </li>
           </ul>
         </div>
@@ -59,7 +59,6 @@
     </nav>
   </header> 
 
-  <div class="container-md">
   <main class="testimonial-grid">
     <article class="testimonial">
       <span class="card-number fw-bold">01</span>
@@ -175,7 +174,9 @@
     <article class="testimonial">
       <span class="card-number fw-bold">06</span>
       <h5 class="card-title  ">Future and Careers</h5>
-      <div class="careers"></div>
+      <div
+          style="width: 20rem; height: 15rem; padding: 1rem; margin: 0rem auto 1rem auto; background-image: url(../IMAGES/justus/peter-fogden-z7oytXGI6VI-unsplash.jpg); background-size: cover; background-repeat: no-repeat; background-position: center;">
+        </div>
 
       <p>
         There is a Career Development Department that helps students to navigate there career paths and choices 
@@ -202,31 +203,57 @@
       </p>
 
     </article>
-
   </main>
-  <div id="disqus_thread" style="width:700px;"></div>
-    <script type="text/javascript">
-        var disqus_shortname = 'ip1-g2'; 
-        (function() {
-            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-        })();
-    </script>
-  </div>  
-  <section class="section3">
-    <footer>
-        <div class="jumbotron footer-jumbotron">
-            <div class="container-md">
-                <div class="row">
-                    <div class="col-md-12 pt-3">
-                        <h3>MADE WITH LOVE</h3>
-                        <p class="mt-3">&copy; 2022 GROUP 2, All Rights Reserved</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </footer>
+
+  <!-- begin wwww.htmlcommentbox.com -->
+  <div class="jumbotron comment-jumbotron">
+    <div class="container-md">
+    <div id="HCB_comment_box">
+      <a href="http://www.htmlcommentbox.com">Widget</a> is loading comments...
+    </div>
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://www.htmlcommentbox.com/static/skins/bootstrap/twitter-bootstrap.css?v=0"
+    />
+      </div>
+    </div>
+  <script type="text/javascript" id="hcb">
+    /*<!--*/ if (!window.hcb_user) {
+      hcb_user = {};
+    }
+    (function () {
+      var s = document.createElement("script"),
+        l = hcb_user.PAGE || ("" + window.location).replace(/'/g, "%27"),
+        h = "https://www.htmlcommentbox.com";
+      s.setAttribute("type", "text/javascript");
+      s.setAttribute(
+        "src",
+        h +
+          "/jread?page=" +
+          encodeURIComponent(l).replace("+", "%2B") +
+          "&mod=%241%24wq1rdBcg%24jYNNrbDaB2Kcv9jxUa2wQ1" +
+          "&opts=16798&num=10&ts=1659018632455"
+      );
+      if (typeof s != "undefined")
+        document.getElementsByTagName("head")[0].appendChild(s);
+    })(); /*-->*/
+  </script>
+  <!-- end www.htmlcommentbox.com -->
+
+    <section class="section3">
+      <footer>
+          <div class="jumbotron footer-jumbotron">
+              <div class="container-md">
+                  <div class="row">
+                      <div class="col-md-12 pt-3">
+                          <h3>MADE WITH LOVE</h3>
+                          <p class="mt-3">&copy; 2022 GROUP 2, All Rights Reserved</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </footer>
   </section>
 
 

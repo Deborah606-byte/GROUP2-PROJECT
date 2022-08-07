@@ -13,7 +13,8 @@ body{
     color: white;
 }
 .navbar{
-    padding: 0 5em; 
+    color: white;
+    padding: 1rem 5rem 3rem 5rem; 
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -23,33 +24,8 @@ body{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    font-size: 20px;
 }
-.navbar-nav a {
-	font-size: 15px;
-	font-weight: 700;
-	text-shadow: white;
-    color: white;
-}
-.navbar-light .navbar-nav .nav-link {
-	color: #fff;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: orange;
-}
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-    color: orange;
-    background-image: linear-gradient(to right, #E23219, #FFB800);
-}
-.navbar .dropdown-menu .dropdown-item{
-    color: black
-}
-.navbar .dropdown-menu .dropdown-item:hover{
-    color: red;
-}
+
 
 
 .testimonial {
@@ -112,14 +88,11 @@ input {
 div.comment-jumbotron{
     padding: 5em 0;
 }
-.btn{
-    width: 30%;
-    border-radius: 20px;
-}
+
 div.comment-jumbotron h3{
-    color: red;
-    font-weight: 800;
-    font-size: 2.5rem;
+    color: white;
+    font-weight: 600;
+    font-size: 2rem;
 }
 .Note{
     color: red;
@@ -163,13 +136,8 @@ div.comment-jumbotron h3{
 }
 .section3 {
     background-color: black;
-    padding-top: 5rem;
-}
-#disqus_thread{
-    border-radius: 1rem;
-    backdrop-filter: blur(1rem);
-    background-color: rgb(196, 196, 196);
-    padding: 2rem;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 1rem;
 }
 .footer-jumbotron{
     text-align: center;
@@ -181,22 +149,33 @@ div.comment-jumbotron h3{
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: red;
+    color: white;
     font-weight: 400;
     font-size: 15px;
 }
-.careers{
-    width: 20rem; 
-    height: 15rem; 
-    padding: 1rem; 
-    margin: 0rem auto 1rem auto; 
-    background-image: url(../IMAGES/justus/peter-fogden-z7oytXGI6VI-unsplash.jpg); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-position: center;
-
-}
- 
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse {
+		background: #FFB800;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
+} 
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse .nav-item .nav-link {
+        background-color: #FFB800;
+	}
+    .navbar{
+        padding: 1rem 1rem 3rem 1rem; 
+    }
+	
+} 
 @media screen and (max-width: 680px) {
     .testimonial-grid{
         display: grid;

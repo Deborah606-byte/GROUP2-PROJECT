@@ -6,16 +6,20 @@
     font-family: 'Poppins', serif;
 }
 
-main {
+body{
     background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMAGES/pexels-pixabay-158736.jpg);
-    width: 100%;
-    position: relative;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+
 }
 
-
+main {
+    width: 100%;
+    position: relative;
+    
+}
 
 
 section {
@@ -26,29 +30,30 @@ section {
 }
 
 .section1 {
-    height: 95vh;
+    height: 110vh;
 }
 
 .section2 {
     position: relative;
-    height: 140vh;
-    /* border-top: rgb(101, 97, 97) solid 1px;
-    padding-top: 5rem; */
-    background-image: url(../IMAGES/pexels-vlad-alexandru-popa-1480962.jpg);
+    height: 120vh;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem;
 }
 
 .section3 {
     background-color: black;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem;
 }
 .section4 {
-    /* height: 120vh; */
-    /* border-top: rgb(101, 97, 97) solid 1px; */
-    padding-top: 2rem; 
-    background-color: rgb(24,17,47);
+    height: 120vh;
+    border-top: rgb(101, 97, 97) solid 1px;
+    padding-top: 5rem;
 
 }
 .navbar{
-    padding: 0 15em;
+    color: white;
+    padding: 2rem 5rem 3rem 5rem; 
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -58,33 +63,7 @@ section {
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-    color: black;
-    font-size: 20px;
-}
-.navbar-nav a {
-	font-size: 15px;
-	font-weight: 400;
-	text-shadow: white;
     color: white;
-}
-.navbar-light .navbar-nav .nav-link {
-	color: #fff;
-}
-.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
-	color: orange;
-}
-.navbar-toggler {
-	padding: 1px 5px;
-	font-size: 18px;
-	line-height: 0.3;
-    color: orange;
-    background-image: linear-gradient(to right, #E23219, #FFB800);
-}
-.navbar .dropdown-menu .dropdown-item{
-    color: black
-}
-.navbar .dropdown-menu .dropdown-item:hover{
-    color: black;
 }
 
 .pic-text h2 {
@@ -92,7 +71,7 @@ section {
     line-height: 50px;
 }
 .pic-home-page {
-    width: 20rem;
+    width: 30rem;
     height: 30rem;
     border-radius: 50%;
     background-color: #FFB800;
@@ -100,7 +79,7 @@ section {
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
-    margin-left: 8em;
+    margin-left: 5em;
     z-index: 2;
     animation: slideIn 1s ease-in 0s;
 }
@@ -108,7 +87,7 @@ section {
 .pic-text {
     display: flex;
     width: 80%;
-    margin-left: 50px;
+    margin: auto;
 }
 
 .text-home-page {
@@ -116,11 +95,11 @@ section {
     display: flex;
     align-items: flex-end;
     font-stretch: extra-expanded;
-    padding: 8em 2em;
+    animation: slideUp 1s ease-in 0s;
 }
 .text-home-page h2{
     font-size: 3rem;
-    line-height: 5rem;
+    line-height: 6rem;
 }
 
 .text-home-page a{
@@ -130,21 +109,22 @@ section {
 span {
     color: #E23219;
 }
-
-
-div.journey-begin-jumbotron{
-    min-height: 670px;
-    background-color: rgb(24,17,47);
+span:hover {
+    color:#FFB800;
 }
+
 div.journey-begin-jumbotron{
     color: white;
 }
 div.journey-begin-jumbotron div.image-row{
-    margin-top: 10em;
+    margin-top: 0;
 }
 img.picture-ALU{
     border: 10px solid white;
-    border-radius: 10px;
+    position: absolute;
+    top: 100px;
+    width: 50%;
+    right: 15rem;
 }
 a.stories-button{
     padding: 0.5em 2em;
@@ -155,27 +135,22 @@ a.stories-button:hover{
 }
 img.ALU{
     position: absolute;
+    border: 10px solid white;
+
 }
 img.images-ALU{
-    top: -100px;
-    right: -0.5px;
-    width: 300px;
-    border-radius: 10px;
-}
-.began h1{
-    color: orange;
-}
-.image-row h3{
-    color: orange;
+    top: 0;
+    right: 2rem;
+    width: 50%;
 }
 
 .heading {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     font-size: 3rem;
-    margin-top: 50px;
+    padding-top: 1rem;
 }
 
 .heading1 {
@@ -195,7 +170,7 @@ img.images-ALU{
 
 .polygon {
     position: absolute;
-    top: 8rem;
+    top: 2rem;
     width: 100%;
     min-height: 100vh;
     perspective: 1000rem;
@@ -203,6 +178,7 @@ img.images-ALU{
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-top: 10rem;
 }
 
 .polygon .slide {
@@ -220,8 +196,8 @@ img.images-ALU{
 
 .polygon .slide .hexagon {
     clip-path: polygon(0 25%, 50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%);
-    height: 30rem;
-    width: 30%;
+    height: 20rem;
+    width: 20%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -316,8 +292,7 @@ img.images-ALU{
     width: 100%;
     height: 100%;
     opacity: 0;
-    color: orange;
-    font-size: 20px;
+    color: white;
 }
 
 .desc:hover {
@@ -325,6 +300,10 @@ img.images-ALU{
 }
 .section2 a{
     text-decoration: none;
+}
+.footer-jumbotron{
+    text-align: center;
+    
 }
 .footer-jumbotron h3{
     color: white;
@@ -337,41 +316,16 @@ img.images-ALU{
     font-size: 15px;
 }
 @media screen and (max-width: 600px){
-    .footer-jumbotron{
-        text-align: center;
-    }
-    .section2{
-        height: 90vh;
-    }
-    a.stories-button{
-       margin-left: 100px;
-    }
-    .section1{
-        height: 140vh;
-    }
-    .pic-text h2{
-        margin-right: 50px;
-    }
-    .picture-ALU{
-        width: 400px;
-        margin-left: 20px;
-        margin-bottom: 20px;
-    }
-    .images-ALU{
-        width: 200px;
-        right:-0.2px;
-    }
     nav {
         width: 100%;
         justify-content: space-between;
         align-items: center;
-        padding: 3rem 0rem;    
+        padding: 3rem 1rem;    
     }
     .logo {
         height: 4rem;
         width: 4rem;
         display: flex;
-        margin-left: 1rem;
     }
     
     h2 {
@@ -423,9 +377,7 @@ img.images-ALU{
     .underline {
         width: 20%;
     }
-    .polygon{
-        margin-top: -170px;
-    }
+    
     .polygon .slide .hexagon {
         height: 15rem;
     }
@@ -461,16 +413,27 @@ img.images-ALU{
     .image-row{
         margin-top: 100px;
     }
-    .navbar-nav {
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.navbar-nav {
 		text-align: center;
 	}
 	.navbar-collapse {
-		background: red;
+		background: #FFB800;
 	}
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
 	}
-}
+} 
+@media only screen and (max-width: 767px) {
+	.navbar-nav {
+		text-align: center;
+	}
+	.navbar-collapse .nav-item .nav-link {
+        background-color: #FFB800;
+	}
+	
+} 
 
 
 
