@@ -137,8 +137,8 @@ div.comment-jumbotron{
     border-radius: 20px;
 }
 div.comment-jumbotron h3{
-    color: white;
-    font-weight: 600;
+    color: orange;
+    font-weight: 500;
     font-size: 2rem;
 }
 
@@ -196,6 +196,9 @@ div.comment-jumbotron h3{
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
 	}
+    .footer-jumbotron{
+        text-align: center;
+    }
 }
 @media screen and (min-width: 680px) {
     .testimonial-grid{

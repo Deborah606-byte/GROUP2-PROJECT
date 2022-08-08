@@ -117,9 +117,9 @@ div.comment-jumbotron{
     border-radius: 20px;
 }
 div.comment-jumbotron h3{
-    color: red;
-    font-weight: 800;
-    font-size: 2.5rem;
+    color: orange;
+    font-weight: 500;
+    font-size: 2rem;
 }
 .Note{
     color: red;
@@ -163,19 +163,15 @@ div.comment-jumbotron h3{
 }
 .section3 {
     background-color: black;
-    padding-top: 5rem;
 }
-.footer-jumbotron{
-    text-align: center;
-    
-}
+
 .footer-jumbotron h3{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: red;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
@@ -220,6 +216,10 @@ div.comment-jumbotron h3{
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
 	}
+    .footer-jumbotron{
+        text-align: center;
+        
+    }
 }
 @media screen and (min-width: 680px) {
     .testimonial-grid{

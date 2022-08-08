@@ -143,8 +143,8 @@ div.comment-jumbotron{
     margin-left: 150px;
 }
 div.comment-jumbotron h3{
-    color: white;
-    font-weight: 600;
+    color: orange;
+    font-weight: 500;
     font-size: 2rem;
 }
 .section3 {
@@ -190,6 +190,18 @@ div.comment-jumbotron h3{
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
 	}
+    .ideas{
+        width: 300px;
+        height: 300px;
+        margin-left: 32px;
+        
+    }
+    .footer-jumbotron{
+        text-align: center;
+    }
+    .nationshair{
+        margin-left: 32px;
+    }
 }
 @media screen and (min-width: 680px) {
     .testimonial-grid{

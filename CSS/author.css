@@ -1,22 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap");
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', serif;
-}
-
+}   
 .navbar{
-    color: white;
-    padding: 1rem 5rem 3rem 5rem; 
-	background-color: transparent;
-}
-.navbar a{
-	color: white
-}
-.navbar a:hover{
-	color: white
-}
+    padding: 0 5em;
+} 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
     height: 3em;
@@ -25,8 +16,35 @@
     align-items: center;
     justify-content: center;
     border-radius: 50%;
-	color: white;
+    font-size: 20px;
+    color: black;
 }
+.navbar-nav a {
+	font-size: 15px;
+	font-weight: 400;
+	text-shadow: white;
+    color: white;
+}
+.light .navbar-nav .nav-link {
+	color: #fff;
+}
+.light .navbar-nav .nav-link:focus, .light .navbar-nav .nav-link:hover {
+	color: orange;
+}
+.navbar-toggler {
+	padding: 1px 5px;
+	font-size: 18px;
+	line-height: 0.3;
+    color: orange;
+    background-image: linear-gradient(to right, #E23219, #FFB800);
+}
+.navbar .dropdown-menu .dropdown-item{
+    color: black
+}
+.navbar .dropdown-menu .dropdown-item:hover{
+    color: black;
+}
+
 
 /*  carousel      */
 
@@ -41,10 +59,10 @@
 	background-image: url(../IMAGES/Ekhat.jpg);
 }
 .bg-3 {
-	background-image: url(../IMAGES/Justus.jpg);
+	background-image: url(../IMAGES/justusw.jpeg);
 }
 .bg-4 {
-	background-image: url(../IMAGES/Manga.jpeg);
+	background-image: url(../IMAGES/mangaliso.jpeg);
 }
 .bg-5 {
 	background-image: url(../IMAGES/Untitled\ design\ \(2\).png);
@@ -103,6 +121,20 @@ p span{
 .slde.btn:hover{
 	opacity: 1;
 }
+
+.section3{
+	background-color: black;
+}
+.footer-jumbotron h3{
+    color: orange;
+    font-weight: 400;
+    font-size: 15px;
+}
+.footer-jumbotron p{
+    color: orange;
+    font-weight: 400;
+    font-size: 15px;
+}
 @media only screen and (min-width: 768px) and (max-width: 991px) {
 	.navbar-nav {
 		text-align: center;
@@ -114,7 +146,7 @@ p span{
 		color: #000;
 	}
 	.carousel-caption {
-		bottom: 350px;
+		bottom: 165px;
 	}
 	.carousel-caption h5 {
 		font-size: 65px;
@@ -122,6 +154,9 @@ p span{
 	.carousel-caption p {
 		font-size: 18px;
 		width: 100%;
+	}
+	.footer-jumbotron{
+		text-align: center;
 	}
 } 
 @media only screen and (max-width: 767px) {
@@ -132,7 +167,7 @@ p span{
 		color: #000;
 	}
 	.carousel-caption {
-		bottom: 165px;
+		bottom: 120px;
 	}
 	.carousel-caption h5 {
 		font-size: 25px;
@@ -146,6 +181,9 @@ p span{
 		font-size: 15px;
 	}
 	.navbar-collapse {
-		background: #FFB800;
+		background: orange;
+	}
+	.footer-jumbotron{
+		text-align: center;
 	}
 } 
