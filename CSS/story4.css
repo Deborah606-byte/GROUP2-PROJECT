@@ -199,8 +199,12 @@ div.comment-jumbotron h3{
 		background: orange;
 	}
 	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}.footer-jumbotron{
+		color: white;
+	}
+    .navbar-collapse .nav-item .nav-link:hover {
+		color: black;
+	}
+    .footer-jumbotron{
         text-align: center;
     }
 }

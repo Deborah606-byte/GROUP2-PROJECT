@@ -188,7 +188,10 @@ div.comment-jumbotron h3{
 		background: orange;
 	}
 	.navbar-collapse .nav-item .nav-link {
-		color: #000;
+		color: white;
+	}
+    .navbar-collapse .nav-item .nav-link:hover {
+		color: black;
 	}
     .ideas{
         width: 300px;
