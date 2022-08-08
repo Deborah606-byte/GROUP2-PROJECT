@@ -142,7 +142,7 @@
 		text-align: center;
 	}
 	.navbar-collapse {
-		background: red;
+		background: orange;
 	}
 	.navbar-collapse .nav-item .nav-link {
 		color: #000;
@@ -180,6 +180,6 @@
 		font-size: 15px;
 	}
 	.navbar-collapse {
-		background: red;
+		background: orange;
 	}
 } 

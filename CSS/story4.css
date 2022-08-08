@@ -189,6 +189,15 @@ div.comment-jumbotron h3{
     .careers{
         width: 100%;
     }
+    .navbar-nav {
+		text-align: center;
+	}
+    .navbar-collapse {
+		background: orange;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
 }
 @media screen and (min-width: 680px) {
     .testimonial-grid{

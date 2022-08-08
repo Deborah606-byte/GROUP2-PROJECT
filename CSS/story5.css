@@ -166,29 +166,7 @@ div.comment-jumbotron h3{
     font-weight: 400;
     font-size: 15px;
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse {
-		background: #FFB800;
-	}
-	.navbar-collapse .nav-item .nav-link {
-		color: #000;
-	}
-} 
-@media only screen and (max-width: 767px) {
-	.navbar-nav {
-		text-align: center;
-	}
-	.navbar-collapse .nav-item .nav-link {
-        background-color: #FFB800;
-	}
-    .navbar{
-        padding: 1rem 1rem 3rem 1rem; 
-    }
-	
-} 
+
 @media screen and (max-width: 680px) {
     .testimonial-grid{
         display: grid;
@@ -209,6 +187,15 @@ div.comment-jumbotron h3{
     .careers{
         width: 100%;
     }
+    .navbar-nav {
+		text-align: center;
+	}
+    .navbar-collapse {
+		background: orange;
+	}
+	.navbar-collapse .nav-item .nav-link {
+		color: #000;
+	}
 }
 @media screen and (min-width: 680px) {
     .testimonial-grid{
