@@ -210,6 +210,13 @@ div.comment-jumbotron h3{
 
 
 @media screen and (max-width: 680px) {
+    .btn{
+        width: 50%;
+        margin-left: 60px;
+    }
+    .footer-jumbotron{
+        text-align: center;
+    }
     .testimonial-grid{
         display: grid;
         gap: 1.5rem;
@@ -242,7 +249,7 @@ div.comment-jumbotron h3{
 		color: black;
 	}
     .ALU-logo{
-        width: 367px;
+        width: 253px;
         height: 120px;
     }
     .grid-col-3{

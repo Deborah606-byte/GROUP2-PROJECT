@@ -345,7 +345,7 @@ img.images-ALU{
         height: 90vh;
     }
     a.stories-button{
-       margin-left: 100px;
+       margin-left: 50px;
     }
     .section1{
         height: 140vh;
@@ -395,7 +395,7 @@ img.images-ALU{
     .pic-text {
         display: flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
         justify-content: center;
         align-items: center;
     }
