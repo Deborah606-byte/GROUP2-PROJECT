@@ -271,3 +271,6 @@ div.comment-jumbotron h3{
         width: 20rem;
     }
 }
+#comments{
+    margin: 0rem;
+}
