@@ -1,19 +1,19 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500&display=swap");
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', serif;
 }
 body{
-    background-image: url(../IMAGES/zac-ong-JHN1-mpgXjo-unsplash.jpg);
+    font-family: 'Poppins', serif;
+    background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../IMAGES/Manga/mybg.jpg);
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
     color: white;
 }
 .navbar{
-    padding: 0 5em;
+    padding: 0 5em; 
 } 
 .logo {
     background-image: linear-gradient(to right, #E23219, #FFB800);
@@ -51,22 +51,15 @@ body{
     color: black;
 }
 
-.testimonial-grid{
-    display: grid;
-    gap: 1.5rem;
-    grid-template-columns: repeat(3, 1fr);
-    padding: 1rem;
+.navbar{
+    background-color: #000;
 }
 
-.grid-col-2{
-    grid-column: span 2;
+.container-md{
+    margin-top: 4.5em;
 }
-.grid-col-3{
-    grid-column: span 3;
-}
-.grid-row-2{
-    grid-row: span 2;
-}
+
+
 .testimonial {
     text-align: left;
     border-radius: 1rem;
@@ -90,18 +83,11 @@ body{
 .card-title{
     color: orange;
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.2rem;
     text-align: center;
     padding-bottom: 2rem;
 }
-h6{
-    font-size: small;
-}
 
-.ALU-logo{
-    width: 320px;
-    height: 100px;
-}
 
 
 .contact-form {
@@ -139,9 +125,9 @@ div.comment-jumbotron{
     border-radius: 20px;
 }
 div.comment-jumbotron h3{
-    color: orange;
-    font-weight: 500;
-    font-size: 2rem;
+    color: red;
+    font-weight: 800;
+    font-size: 2.5rem;
 }
 .Note{
     color: red;
@@ -155,20 +141,64 @@ div.comment-jumbotron h3{
     font-style: italic;
     font-size: 20px;
 }
+.testimonial-grid{
+    display: grid;
+    gap: 1.5rem;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1rem;
+}
 
+.grid-col-2{
+    grid-column: span 2;
+}
+.grid-row-2{
+    grid-row: span 2;
+}
+.hello{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+.mauritius{
+    background-image: url(../IMAGES/justus/dan-dy-WwUnM9iLWwM-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20rem;
+    height: 15rem;
+    margin: 0rem 2rem 1rem 0rem;
+    float: left;
+}
 .section3 {
     background-color: black;
+    padding-top: 5rem;
+}
+.footer-jumbotron{
+    text-align: center;
+    
 }
 .footer-jumbotron h3{
-    color: orange;
+    color: white;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: orange;
+    color: red;
     font-weight: 400;
     font-size: 15px;
 }
+.careers{
+    width: 20rem; 
+    height: 15rem; 
+    padding: 1rem; 
+    margin: 0rem auto 1rem auto; 
+    background-image: url(../IMAGES/justus/peter-fogden-z7oytXGI6VI-unsplash.jpg); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+
+}
+ 
 @media screen and (max-width: 680px) {
     .testimonial-grid{
         display: grid;
@@ -181,9 +211,6 @@ div.comment-jumbotron h3{
     }
     .grid-row-2{
         grid-row: span 1;
-    }
-    .grid-col-3{
-        grid-column: span 1;
     }
     .mauritius{
         width: 100%;
@@ -199,14 +226,8 @@ div.comment-jumbotron h3{
 		background: orange;
 	}
 	.navbar-collapse .nav-item .nav-link {
-		color: white;
+		color: #000;
 	}
-    .navbar-collapse .nav-item .nav-link:hover {
-		color: black;
-	}
-    .footer-jumbotron{
-        text-align: center;
-    }
 }
 @media screen and (min-width: 680px) {
     .testimonial-grid{
