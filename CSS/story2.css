@@ -141,6 +141,12 @@ div.comment-jumbotron{
     width: 500px;
     height: 500px;
 }
+.hello{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-left: 2rem;
+}
+
 div.comment-jumbotron h3{
     color: orange;
     font-weight: 500;
