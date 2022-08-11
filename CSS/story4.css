@@ -51,15 +51,6 @@ body{
     color: black;
 }
 
-.navbar{
-    background-color: #000;
-}
-
-.container-md{
-    margin-top: 4.5em;
-}
-
-
 .testimonial {
     text-align: left;
     border-radius: 1rem;
@@ -169,21 +160,16 @@ div.comment-jumbotron h3{
     margin: 0rem 2rem 1rem 0rem;
     float: left;
 }
-.section3 {
+.section3{
     background-color: black;
-    padding-top: 5rem;
-}
-.footer-jumbotron{
-    text-align: center;
-    
 }
 .footer-jumbotron h3{
-    color: white;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
 .footer-jumbotron p{
-    color: red;
+    color: orange;
     font-weight: 400;
     font-size: 15px;
 }
