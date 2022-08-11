@@ -74,7 +74,7 @@ body{
     color: black
 }
 .navbar .dropdown-menu .dropdown-item:hover{
-    color: black;
+    color: orange;
 }
 
 .testimonial-grid{

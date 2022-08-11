@@ -84,7 +84,7 @@ section {
     color: black
 }
 .navbar .dropdown-menu .dropdown-item:hover{
-    color: black;
+    color: orange;
 }
 
 .pic-text h2 {
