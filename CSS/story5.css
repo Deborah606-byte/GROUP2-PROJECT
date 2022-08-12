@@ -164,6 +164,12 @@ div.comment-jumbotron h3{
     .careers{
         width: 100%;
     }
+    .logo {
+        height: 4rem;
+        width: 4rem;
+        display: flex;
+        margin-left: -60px;
+    }
     .navbar-nav {
 		text-align: center;
 	}

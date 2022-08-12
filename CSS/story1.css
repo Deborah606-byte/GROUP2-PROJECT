@@ -216,9 +216,21 @@ div.comment-jumbotron h3{
     .navbar-nav {
 		text-align: center;
 	}
+    .logo {
+        height: 4rem;
+        width: 4rem;
+        display: flex;
+        margin-left: -60px;
+    }
+    nav {
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        padding: 3rem 0rem;    
+    }
     .navbar-collapse {
 		background: orange;
-	}
+	} 
 	.navbar-collapse .nav-item .nav-link {
 		color: white;
 	}
