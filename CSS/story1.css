@@ -148,18 +148,6 @@ div.comment-jumbotron h3{
     font-weight: 500;
     font-size: 2rem;
 }
-.Note{
-    color: red;
-    font-style: italic;
-}
-.Notes{
-    color: wheat;
-}
-.place{
-    color: pink;
-    font-style: italic;
-    font-size: 20px;
-}
 
 .section3{
     background-color: black;
@@ -177,7 +165,7 @@ div.comment-jumbotron h3{
 }
 .note{
     text-align: center;
-    color: black;
+    color: white;
     font-weight: 700;
 }
 .btn{

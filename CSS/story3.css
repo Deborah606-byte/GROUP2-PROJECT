@@ -96,18 +96,6 @@ div.comment-jumbotron h3{
     font-weight: 500;
     font-size: 2rem;
 }
-.Note{
-    color: red;
-    font-style: italic;
-}
-.Notes{
-    color: wheat;
-}
-.place{
-    color: pink;
-    font-style: italic;
-    font-size: 20px;
-}
 .testimonial-grid{
     display: grid;
     gap: 1.5rem;
