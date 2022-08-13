@@ -43,8 +43,8 @@ body{
 	line-height: 0.3;
     color: orange;
     background-image: linear-gradient(to right, #E23219, #FFB800);
-    height: 3rem;
-    width: 4rem;
+    height: 2rem;
+    width: 3rem;
 }
 .navbar .dropdown-menu .dropdown-item{
     color: black

@@ -45,8 +45,8 @@ body{
 	line-height: 0.3;
     color: orange;
     background-image: linear-gradient(to right, #E23219, #FFB800);
-    height: 3rem;
-    width: 4rem;
+    height: 2rem;
+    width: 3rem;
 }
 .navbar .dropdown-menu .dropdown-item{
     color: black
@@ -122,10 +122,6 @@ h6{
     font-size: small;
 }
 
-.ALU-logo{
-    width: 650px;
-    height: 120px;
-}
 .ALU1{
     width: 650px;
     height: 300px;
@@ -179,7 +175,7 @@ div.comment-jumbotron h3{
 @media screen and (max-width: 680px) {
     .btn{
         width: 50%;
-        margin-left: 60px;
+        margin-left: 90px;
     }
     .footer-jumbotron{
         text-align: center;
@@ -228,10 +224,6 @@ div.comment-jumbotron h3{
     .navbar-collapse .nav-item .nav-link:hover {
 		color: black;
 	}
-    .ALU-logo{
-        width: 253px;
-        height: 120px;
-    }
     .grid-col-3{
         grid-row: span 1;
     }
